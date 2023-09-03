@@ -7,7 +7,9 @@ import 'package:hackathon_austria/core/styles/text_styles.dart';
 import '../../../../core/styles/colors.dart';
 
 class ItemCarrousel extends StatelessWidget {
-  const ItemCarrousel({super.key});
+  final String title;
+  final String subtitle;
+  const ItemCarrousel({super.key, required this.title, required this.subtitle});
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +29,7 @@ class ItemCarrousel extends StatelessWidget {
           SizedBox(
             width: context.mediaWidth * 0.8,
             child: Text(
-              "Discover opportunities in Austria",
+              title,
               textAlign: TextAlign.center,
               style: GoogleFonts.inter(
                 textStyle: styleModifier.mediumBlack,
@@ -35,7 +37,7 @@ class ItemCarrousel extends StatelessWidget {
             ),
           ),
           Text(
-            "Blablabla",
+            subtitle,
             style: GoogleFonts.inter(textStyle: styleModifier.smallBlack),
           ),
           const SizedBox(

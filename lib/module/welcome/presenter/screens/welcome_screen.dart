@@ -19,12 +19,29 @@ class WelcomeScreen extends StatelessWidget {
           const Offset(370.0, -40.0)
         ]),
         itemBuilder: (context, index) {
-          return const ItemCarrousel();
+          if (index == 0) {
+            return const ItemCarrousel(
+              title: "Discover opportunities in Austria",
+              subtitle: "Bla bla bla",
+            );
+          }
+          if (index == 1) {
+            return const ItemCarrousel(
+              title: "Boost your career with hiring trails",
+              subtitle: "Bla bla bla",
+            );
+          }
+          if (index == 2) {
+            return const ItemCarrousel(
+              title: "Find a community for you to receibe",
+              subtitle: "Bla bla bla",
+            );
+          } else {
+            return const SizedBox();
+          }
         },
         itemCount: 3,
       ),
     );
   }
 }
-
-
