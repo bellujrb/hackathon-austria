@@ -51,7 +51,13 @@ import 'package:hackathon_austria/core/styles/colors.dart';
 
     TextStyle get smallGreen => TextStyle(
       color: AppColors.primaryGreen,
-      fontSize: 11.0,
+      fontSize: 12.0,
+      fontWeight: FontWeight.w400
+    );
+
+    TextStyle get smallOrange => TextStyle(
+      color: AppColors.primaryOrange,
+      fontSize: 12.0,
       fontWeight: FontWeight.w400
     );
 
