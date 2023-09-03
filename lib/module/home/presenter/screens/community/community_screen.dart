@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hackathon_austria/core/extensions/build_context_utils.dart';
 import 'package:hackathon_austria/core/styles/colors.dart';
-import 'package:hackathon_austria/core/styles/text_styles.dart';
 import 'package:hackathon_austria/module/home/presenter/widgets/appbar_widget.dart';
 import 'package:hackathon_austria/module/home/presenter/widgets/bottom_navigator.dart';
 import 'package:hackathon_austria/module/home/presenter/widgets/item_forum.dart';
@@ -13,7 +12,6 @@ class CommunityScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final styleModifier = context.appTextStyles;
     return SafeArea(
       child: Scaffold(
         backgroundColor: const Color(0xFFF7F7F7),
