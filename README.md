@@ -1,3 +1,11 @@
+## Samba Meets Waltz. A Hackathon Connecting Brazil & Austria.
+
+<div align="center">
+    <img src="/logo2.png" alt="EmployEd Logo">
+</div>
+
+---
+
 # EmployEd: Connecting Circuits to Careers 🇦🇹🇧🇷
 
 > _TEAM 263: Samba Meets Waltz
