@@ -12,6 +12,10 @@
 
 Welcome to EmployEd's Intelligent Recruitment Platform, specially designed to expedite the hiring process by empowering talents and connecting industries with universities. Our innovative approach focuses on international recruitment, skill development, and fostering collaboration between companies and higher education institutions.
 
+### 📹 App Preview 
+
+[![Preview the App](assets/readme/prototype1.png)](https://www.youtube.com/shorts/CJvvYHojOS4)
+
 <details>
 <summary>🌟 Features</summary>
 
