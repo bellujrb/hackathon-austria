@@ -150,10 +150,8 @@ A tela inicial (Home) da aplicação exibe anúncios de vagas de emprego de empr
 # External Packages (Mobile)
 
 - Flutter Modular
-- Flutter doenv
+- Provider
 - GoogleFonts
-- HTTP
-- Logger
 
 # Arquitetura usada (Mobile)
 

@@ -35,14 +35,12 @@ class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
         navigationState.updateIndex(index); 
 
         if (index == 0) {
-          Modular.to.navigate("learning");
+          Modular.to.navigate("courses");
         } else if (index == 1) {
           Modular.to.navigate("jobs");
         } else if (index == 2) {
           Modular.to.navigate("community");
-        } else if (index == 3) {
-          Modular.to.navigate("community");
-        }
+        } 
       },
       backgroundColor: const Color(0xFFF9F9F9),
       unselectedItemColor: AppColors.secondaryGray,
@@ -56,10 +54,6 @@ class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
         BottomNavigationBarItem(
           icon: Icon(Icons.business),
           label: 'Jobs',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.person),
-          label: 'Perfil',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.forum),
