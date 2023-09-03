@@ -31,6 +31,42 @@ import 'package:hackathon_austria/core/styles/colors.dart';
       fontWeight: FontWeight.w400
     );
 
+    TextStyle get smallRed => TextStyle(
+      color: AppColors.primaryRed,
+      fontSize: 11.0,
+      fontWeight: FontWeight.w400
+    );
+
+    TextStyle get smallPlusRed => TextStyle(
+      color: AppColors.primaryRed,
+      fontSize: 16.0,
+      fontWeight: FontWeight.w400
+    );
+
+    TextStyle get smallGreen => TextStyle(
+      color: AppColors.primaryGreen,
+      fontSize: 11.0,
+      fontWeight: FontWeight.w400
+    );
+
+    TextStyle get smallPlusGreen => TextStyle(
+      color: AppColors.primaryGreen,
+      fontSize: 16.0,
+      fontWeight: FontWeight.w400
+    );
+
+    TextStyle get smallPurple => TextStyle(
+      color: AppColors.primaryPurple,
+      fontSize: 11.0,
+      fontWeight: FontWeight.w400
+    );
+
+    TextStyle get smallPlusPurple => TextStyle(
+      color: AppColors.primaryPurple,
+      fontSize: 16.0,
+      fontWeight: FontWeight.w400
+    );
+
     TextStyle get mediumRed => TextStyle(
       color: AppColors.primaryRed,
       fontSize: 24.0,

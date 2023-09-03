@@ -24,7 +24,7 @@ class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
           Modular.to.navigate("/");
         }
         if(index == 1){
-          Modular.to.navigate("/");
+          Modular.to.navigate("vacanries");
         }
         if(index == 2){
           Modular.to.navigate("/");

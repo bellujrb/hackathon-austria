@@ -16,7 +16,7 @@ AppBar buildAppBar(BuildContext context) {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
-            "Hello, Belluzzo",
+            "Hello, Sophia",
             style: GoogleFonts.inter(textStyle: styleModifier.mediumRed),
           ),
           SizedBox(
