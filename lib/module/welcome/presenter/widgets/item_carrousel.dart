@@ -16,12 +16,12 @@ class ItemCarrousel extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-            width: 254,
-            height: 352,
+            width: 328,
+            height: 242.17,
             child: Image.asset('assets/welcome1.png'),
           ),
           const SizedBox(
-            height: 20,
+            height: 35,
           ),
           SizedBox(
             width: context.mediaWidth * 0.8,
