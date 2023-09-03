@@ -33,7 +33,7 @@ class ItemForum extends StatelessWidget {
                 SizedBox(
                     width: 17,
                     height: 19,
-                    child: Image.asset(mockIMG))
+                    child: Image.asset("assets/iconcommunity1.png"))
               ],
             ),
           ),
@@ -65,7 +65,7 @@ class ItemForum extends StatelessWidget {
             child: SizedBox(
               height: 21.57,
               width: 96.59,
-              child: Image.asset('assets/mocklike1.png'),
+              child: Image.asset(mockIMG),
             ),
           )
         ],

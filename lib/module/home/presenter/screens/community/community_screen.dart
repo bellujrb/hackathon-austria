@@ -78,6 +78,15 @@ class CommunityScreen extends StatelessWidget {
                     mockIMG: "assets/mocklike3.png",
                   ),
                 ),
+                const Padding(
+                  padding: EdgeInsets.all(16.0),
+                  child: ItemForum(
+                    title: "Digital filter optimization and assembler",
+                    subtitle:
+                        "You didn't register for this course yet.",
+                    mockIMG: "assets/mocklike3.png",
+                  ),
+                ),
               ],
             ),
           ),
