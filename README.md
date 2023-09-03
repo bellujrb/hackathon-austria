@@ -1,4 +1,4 @@
-# EmployEd: Connecting Circuits to Careers 🇦🇹
+# EmployEd: Connecting Circuits to Careers 🇦🇹🇧🇷
 
 > _TEAM 263: Samba Meets Waltz
 
@@ -14,7 +14,7 @@ Welcome to EmployEd's Intelligent Recruitment Platform, specially designed to ex
 
 ### 📹 App Preview 
 
-[![Preview the App](assets/readme/prototype1.png)](https://youtu.be/JuuGVvMb2jA?si=E0oGknfjbAYW41zE)
+[![Preview the App](assets/readme/prototype1.png)](https://www.youtube.com/shorts/JuuGVvMb2jA)
 
 <details>
 <summary>🌟 Features</summary>
