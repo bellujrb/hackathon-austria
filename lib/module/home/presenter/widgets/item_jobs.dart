@@ -5,10 +5,10 @@ import 'package:hackathon_austria/core/styles/text_styles.dart';
 
 import '../../../../core/styles/colors.dart';
 
-class ItemVacancies extends StatelessWidget {
+class ItemJobs extends StatelessWidget {
   final String title;
   final String subtitle;
-  const ItemVacancies(
+  const ItemJobs(
       {super.key,
       required this.title,
       required this.subtitle,

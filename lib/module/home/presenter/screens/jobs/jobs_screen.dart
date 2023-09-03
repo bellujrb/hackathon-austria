@@ -4,12 +4,12 @@ import 'package:hackathon_austria/core/extensions/build_context_utils.dart';
 import 'package:hackathon_austria/core/styles/text_styles.dart';
 import 'package:hackathon_austria/module/home/presenter/widgets/bottom_navigator.dart';
 import 'package:hackathon_austria/module/home/presenter/widgets/graphic_widget.dart';
-import 'package:hackathon_austria/module/home/presenter/widgets/item_vacancies.dart';
+import 'package:hackathon_austria/module/home/presenter/widgets/item_jobs.dart';
 
 import '../../../../../core/styles/colors.dart';
 
-class VacanciesScreen extends StatelessWidget {
-  const VacanciesScreen({super.key});
+class JobsScreen extends StatelessWidget {
+  const JobsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -63,7 +63,7 @@ class VacanciesScreen extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
-                const ItemVacancies(
+                const ItemJobs(
                   title: "Microelectronics Engineer",
                   subtitle:
                       "As a Semiconductor Process Engineer, you will play a crucial role in our semiconductor fabrication process.",

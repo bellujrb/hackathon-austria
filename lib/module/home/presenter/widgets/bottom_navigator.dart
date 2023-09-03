@@ -21,10 +21,10 @@ class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
       currentIndex: currentIndex,
       onTap: (index) {
         if(index == 0){
-          Modular.to.navigate("/");
+          Modular.to.navigate("/diagnostic");
         }
         if(index == 1){
-          Modular.to.navigate("vacanries");
+          Modular.to.navigate("jobs");
         }
         if(index == 2){
           Modular.to.navigate("/");

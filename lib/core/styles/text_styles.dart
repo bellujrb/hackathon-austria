@@ -90,6 +90,12 @@ import 'package:hackathon_austria/core/styles/colors.dart';
       fontSize: 13,
       fontWeight: FontWeight.w600
     );
+
+    TextStyle get mediumBlue => TextStyle(
+      color: AppColors.secondaryBlue,
+      fontSize: 18,
+      fontWeight: FontWeight.w600
+    );
   }
 
   extension AppTextStylesExtension on BuildContext {
