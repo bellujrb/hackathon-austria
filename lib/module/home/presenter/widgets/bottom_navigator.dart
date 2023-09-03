@@ -1,7 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:provider/provider.dart';
 
 import '../../../../core/styles/colors.dart';
+
+import 'package:flutter/foundation.dart';
+
+class NavigationState with ChangeNotifier {
+  int _currentIndex = 0;
+
+  int get currentIndex => _currentIndex;
+
+  void updateIndex(int newIndex) {
+    _currentIndex = newIndex;
+    notifyListeners();
+
+  }}
 
 class BottomNavigationWidget extends StatefulWidget {
   const BottomNavigationWidget({super.key});
@@ -12,48 +26,47 @@ class BottomNavigationWidget extends StatefulWidget {
 }
 
 class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
-
-  var currentIndex = 0;
-
   @override
   Widget build(BuildContext context) {
+    final navigationState = Provider.of<NavigationState>(context);
     return BottomNavigationBar(
-      currentIndex: currentIndex,
+      currentIndex: navigationState.currentIndex,
       onTap: (index) {
-        if(index == 0){
-          Modular.to.navigate("/diagnostic");
-        }
-        if(index == 1){
+        navigationState.updateIndex(index); 
+
+        if (index == 0) {
+          Modular.to.navigate("learning");
+        } else if (index == 1) {
           Modular.to.navigate("jobs");
-        }
-        if(index == 2){
-          Modular.to.navigate("/");
-        }
-        if(index == 3){
+        } else if (index == 2) {
+          Modular.to.navigate("community");
+        } else if (index == 3) {
           Modular.to.navigate("community");
         }
       },
-        backgroundColor: const Color(0xFFF9F9F9),
-        unselectedItemColor: Colors.amber,
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.menu_book_rounded),
-            label: 'Cursos',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.business),
-            label: 'Vagas',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Perfil',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Community',
-          ),
-        ],
-        selectedItemColor: AppColors.primaryBlue,
-      );
+      backgroundColor: const Color(0xFFF9F9F9),
+      unselectedItemColor: AppColors.secondaryGray,
+      showSelectedLabels: true,
+      showUnselectedLabels: true,
+      items: const <BottomNavigationBarItem>[
+        BottomNavigationBarItem(
+          icon: Icon(Icons.menu_book_rounded),
+          label: 'Courses',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.business),
+          label: 'Jobs',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.person),
+          label: 'Perfil',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.forum),
+          label: 'Community',
+        ),
+      ],
+      selectedItemColor: AppColors.primaryBlue,
+    );
   }
 }

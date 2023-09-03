@@ -38,6 +38,7 @@ dependencies:
   flutter_modular: ^5.0.3
   google_fonts: ^5.1.0
   flutter_swiper_plus: ^2.0.4
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
