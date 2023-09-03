@@ -27,10 +27,40 @@ class CommunityScreen extends StatelessWidget {
                   height: 10,
                 ),
                 Container(
-                  margin: const EdgeInsets.only(left: 20),
-                  height: 36,
-                  width: context.mediaWidth * 0.9,
-                  decoration: BoxDecoration(color: AppColors.secondaryGray),
+                  margin: const EdgeInsets.only(
+                    left: 10
+                  ),
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 36,
+                    width: context.mediaWidth * 0.9,
+                    decoration: BoxDecoration(
+                      color: AppColors.secondaryGray,
+                      borderRadius: BorderRadius.circular(8)
+                      ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Container(
+                          margin: const EdgeInsets.only(left: 5),
+                          child: Text(
+                            "Search",
+                            style: GoogleFonts.inter(),
+                          ),
+                        ),
+                        Container(
+                          margin: const EdgeInsets.only(
+                            right: 5
+                          ),
+                          child: Icon(
+                            Icons.mic,
+                            size: 24,
+                            color: AppColors.primary,
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
                 ),
                 const SizedBox(
                   height: 10,

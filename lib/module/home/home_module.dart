@@ -13,10 +13,10 @@ class HomeModule extends Module {
 
   @override
   List<ChildRoute> get routes => [
-    ChildRoute('/', child: (context, args) => const DiagnosticScreen()),
+    ChildRoute('/', child: (context, args) => const CourseScreen()),
+    ChildRoute('/courses', child: (context, args) => const CourseScreen()),
     ChildRoute('/community', child: (context, args) => const CommunityScreen()),
     ChildRoute('/jobs', child: (context, args) => const JobsScreen()),
     ChildRoute('/diagnostic', child: (context, args) => const DiagnosticScreen()),
-    ChildRoute('/courses', child: (context, args) => const CourseScreen())
   ];
 }

@@ -58,7 +58,32 @@ class JobsScreen extends StatelessWidget {
                 Container(
                   height: 36,
                   width: context.mediaWidth * 0.9,
-                  decoration: BoxDecoration(color: AppColors.secondaryGray),
+                  decoration: BoxDecoration(
+                    color: AppColors.secondaryGray,
+                    borderRadius: BorderRadius.circular(8)
+                    ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        margin: const EdgeInsets.only(left: 5),
+                        child: Text(
+                          "Search",
+                          style: GoogleFonts.inter(),
+                        ),
+                      ),
+                      Container(
+                        margin: const EdgeInsets.only(
+                          right: 5
+                        ),
+                        child: Icon(
+                          Icons.mic,
+                          size: 24,
+                          color: AppColors.primary,
+                        ),
+                      )
+                    ],
+                  ),
                 ),
                 const SizedBox(
                   height: 20,
