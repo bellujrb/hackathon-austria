@@ -87,7 +87,7 @@ As funcionalidades do sistema se integram em um fluxo de atividades que permitem
 7. **Sistema de Treinamento Integrado**
    - As Training Trails oferecem oportunidades de aprimoramento contínuo para os usuários.
 
-## **Caso de Uso Candidato 1: Identificar Usuario**
+## **Caso de Uso Candidato 1: Identificação de Usuário**
 
 ??
 ??
@@ -95,37 +95,37 @@ As funcionalidades do sistema se integram em um fluxo de atividades que permitem
 
 ## **Caso de Uso Candidato 2: Perfil**
 
-Neste caso de uso, o candidato pode criar e gerenciar seu perfil na aplicação. Isso inclui o upload de informações básicas e a definição de preferências, como a busca por contratos de freelancer, filtragem por tipo de contrato (freelancer/full-time) e nível de senioridade.
+Neste caso de uso, o candidato tem a capacidade de criar e gerenciar seu perfil na aplicação. Isso engloba o preenchimento de informações básicas e a configuração de preferências, como a busca por contratos de freelancer, a filtragem por tipo de contrato (freelancer/tempo integral) e nível de senioridade.
 
 1. O candidato acessa a seção de perfil.
-   
-2. Ele preenche informações básicas, como nome, experiência, habilidades, etc.
-   
-3. Ele define suas preferências de contrato (freelancer/full-time) e nível de senioridade.
-  
-4. As informações do perfil são salvas no sistema.
+
+2. Ele fornece informações básicas, incluindo nome, experiência, habilidades, etc.
+
+3. Ele define suas preferências quanto ao tipo de contrato (freelancer/tempo integral) e nível de senioridade.
+
+4. As informações do perfil são armazenadas no sistema.
 
 ## **Caso de Uso Candidato 3: Comunidade**
 
-Este caso de uso permite ao candidato participar da comunidade da aplicação, onde os usuários podem fazer perguntas, compartilhar conhecimento e obter ajuda. Por exemplo, os candidatos podem perguntar como encontrar livros sobre semicondutores.
+Este caso de uso permite ao candidato participar da comunidade da aplicação, onde os usuários podem fazer perguntas, compartilhar conhecimento e receber assistência. Por exemplo, os candidatos podem fazer perguntas sobre como encontrar livros sobre semicondutores.
 
 1. O candidato acessa a seção da comunidade.
- 
-2. Ele cria uma pergunta ou responde a uma pergunta existente.
 
-3. Outros usuários podem interagir e fornecer respostas ou comentários.
+2. Ele cria uma pergunta ou responde a uma pergunta já existente.
+
+3. Outros usuários podem interagir fornecendo respostas ou comentários.
 
 ## **Caso de Uso Candidato 4: Trilha de Desenvolvimento**
 
-Neste caso de uso, o candidato pode participar de uma trilha de conhecimento gamificada. Eles podem acumular pontos para alcançar uma pontuação alta de "score de imigração" na Áustria.
+Neste caso de uso, o candidato tem a oportunidade de participar de uma trilha de conhecimento gamificada. Eles podem acumular pontos para alcançar uma pontuação elevada no "score de imigração" para a Áustria.
 
 1. O candidato acessa a trilha de conhecimento.
-   
-2. Eles completam atividades e tarefas específicas para ganhar pontos.
 
-3. Os pontos acumulados contribuem para seu "score de imigração" na Áustria.
+2. Eles concluem atividades e tarefas específicas para ganhar pontos.
 
-## **Caso de Uso Candidato 5: Home**
+3. Os pontos acumulados contribuem para o seu "score de imigração" na Áustria.
+
+## **Caso de Uso Candidato 5: Página Inicial (Home)**
 
 A tela inicial (Home) da aplicação exibe anúncios de vagas de emprego de empresas para os candidatos.
 
@@ -137,11 +137,11 @@ A tela inicial (Home) da aplicação exibe anúncios de vagas de emprego de empr
 
 ## **Segurança e Privacidade dos Dados**
 
-- Todos os dados e informações adicionados passam por rigorosos processos de tratamento e anonimização, garantindo que nenhum dado sensível seja exposto ou comprometido.
+- Todos os dados e informações inseridos passam por rigorosos processos de tratamento e anonimização, garantindo que nenhum dado sensível seja exposto ou comprometido.
 
-- Medidas de segurança avançadas são implementadas para proteger os candidatoss contra tentativas de acesso não autorizado e garantir a integridade dos dados.
+- Medidas de segurança avançadas são implementadas para proteger os candidatos contra tentativas de acesso não autorizado e garantir a integridade dos dados.
 
-- A equipe responsável pelo desenvolvimento e manutenção do mobile é treinada em questões de segurança e privacidade de dados, garantindo que todas as práticas adotadas estejam em conformidade com as regulamentações governamentais e padrões de proteção de informações sensíveis.
+- A equipe responsável pelo desenvolvimento e manutenção do aplicativo móvel é treinada em questões de segurança e privacidade de dados, assegurando que todas as práticas adotadas estejam em conformidade com as regulamentações governamentais e padrões de proteção de informações sensíveis.
 
 # Design Patterns (Mobile)
 
