@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hackathon_austria/core/extensions/build_context_utils.dart';
 import 'package:hackathon_austria/core/styles/text_styles.dart';
@@ -40,17 +41,20 @@ class ItemCarrousel extends StatelessWidget {
           const SizedBox(
             height: 20,
           ),
-          Container(
-            alignment: Alignment.center,
-            height: 36,
-            width: context.mediaWidth * 0.6,
-            decoration: BoxDecoration(
-              color: AppColors.primary,
-              borderRadius: BorderRadius.circular(16)
+          GestureDetector(
+            onTap: () => Modular.to.navigate('home'),
+            child: Container(
+              alignment: Alignment.center,
+              height: 36,
+              width: context.mediaWidth * 0.6,
+              decoration: BoxDecoration(
+                color: AppColors.primary,
+                borderRadius: BorderRadius.circular(16)
+              ),
+              child: Text("Entrar", style: GoogleFonts.inter(
+                textStyle: styleModifier.temporaryText
+              ),),
             ),
-            child: Text("Entrar", style: GoogleFonts.inter(
-              textStyle: styleModifier.temporaryText
-            ),),
           )
         ],
       ),

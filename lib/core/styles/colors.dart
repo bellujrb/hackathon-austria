@@ -11,4 +11,5 @@ class AppColors {
 
   static Color get primary => const Color(0xFF2864AE);
   static Color get primaryBlack => const Color(0xFF000000);
+  static Color get primaryBlue => const Color(0xFF007AFF);
 }
