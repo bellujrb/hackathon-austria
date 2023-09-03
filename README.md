@@ -1,170 +1,133 @@
-# Hackathon Austria (Samba Meets Waltz)
+# EmployEd: Connecting Circuits to Careers 🇧🇷 🇦🇹
 
-### Plataforma de Recrutamento Internacional
- 
-Este software é uma plataforma de recrutamento inteligente que visa encurtar o tempo de preenchimento de vagas, capacitando talentos e promovendo a conexão entre indústrias e universidades. Oferece uma abordagem inovadora para recrutamento internacional, fortalecendo o desenvolvimento de talentos e melhorando a colaboração entre empresas e instituições de ensino superior.
+> _TEAM 263 of the Samba Meets Waltz - Hackathon 2023_
 
-### Como instalar a parte Mobile
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-Mobile-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Certifique-se de ter o Dart e o Flutter instalados em sua máquina.
+---
 
-Clone este repositório para seu ambiente local.
+## 🌐 Introduction
 
-```
-git clone https://github.com/bellujrb/hackathon-austria
-```
+Welcome to EmployEd's Intelligent Recruitment Platform, specially designed to expedite the hiring process by empowering talents and connecting industries with universities. Our innovative approach focuses on international recruitment, skill development, and fostering collaboration between companies and higher education institutions.
 
-Instale as dependências do projeto.
+<details>
+<summary>🌟 Features</summary>
 
-```
-flutter pub add
-```
+### 🔹 Automatic Europass Resume Converter
+Automatically convert your resumes into the Europass format through integration with platforms like LinkedIn.
 
-Execute o aplicativo fornecido com o seguinte comando.
+### 🔹 Skill Compatibility Analyzer
+Evaluate your skills against available job openings and receive a report on areas for improvement.
 
-```
-flutter run
-```
+### 🔹 Training Trails for Different Levels
+Free training modules to boost your language skills and give you a competitive edge in the job market.
 
-## **Funcionalidades do Sistema**
+</details>
 
-### **1. Automatic Europass Resume Converter**
-O sistema oferece uma funcionalidade que permite aos usuários converter automaticamente seus currículos em formato Europass. Isso é feito através da integração com plataformas como LinkedIn. Os talentos podem gerar uma versão Europass de seus currículos, facilitando a apresentação de suas qualificações de forma padronizada e reconhecida internacionalmente.
+---
 
-### **2. Skill Compatibility Analyzer**
-O Skill Compatibility Analyzer é uma ferramenta que permite aos usuários avaliar o grau de compatibilidade de suas habilidades técnicas e formação com as vagas de emprego disponíveis. O sistema gera um relatório indicando as habilidades que precisam ser melhoradas para aumentar as chances de sucesso na busca por emprego.
+## 🛠 Installation (Mobile)
 
-### **3. Training Trails for Different Levels**
-Para auxiliar os usuários em sua jornada de aprimoramento, o sistema oferece trilhas de treinamento gratuitas em diferentes níveis. Essas trilhas são projetadas para melhorar o domínio de línguas, proporcionando aos talentos uma vantagem competitiva no mercado de trabalho.
+1. **Pre-requisites**
+    - Make sure you have Dart and Flutter installed on your machine.
 
-## **Fluxograma de Atividades**
+2. **Clone the Repository**
 
-As funcionalidades do sistema se integram em um fluxo de atividades que permitem às empresas prever seu crescimento e participar ativamente na formação dos talentos. A tendência de mercado que tem se fortalecido nos últimos anos é a colaboração entre empresas e talentos na busca por oportunidades de emprego mais alinhadas com suas habilidades e objetivos.
+    ```bash
+    git clone https://github.com/bellujrb/hackathon-austria
+    ```
 
-1. **Cadastro de Usuários**
-   - Os talentos e empresas se cadastram na plataforma.
+3. **Install Dependencies**
 
-2. **Criação de Currículo Europass**
-   - Os talentos podem importar seus currículos de plataformas como o LinkedIn.
-   - O sistema converte automaticamente o currículo para o formato Europass.
+    ```bash
+    flutter pub get
+    ```
 
-3. **Análise de Compatibilidade de Habilidades**
-   - Os talentos podem usar a ferramenta Skill Compatibility Analyzer para avaliar suas habilidades em relação às vagas de emprego disponíveis.
-   - Um relatório é gerado, indicando as habilidades a serem aprimoradas.
+4. **Run the App**
 
-4. **Treinamento e Aprimoramento**
-   - Os talentos têm acesso às Training Trails para melhorar suas habilidades, especialmente no domínio de línguas.
+    ```bash
+    flutter run
+    ```
 
-5. **Colaboração com Empresas**
-   - As empresas podem procurar talentos com base em suas necessidades e requisitos específicos.
+---
 
-6. **Foco nas ODS 17 (Objetivos de Desenvolvimento Sustentável)**
-   - A plataforma se destaca por focar na cooperação para o desenvolvimento, conectando talentos a oportunidades no exterior.
+## 🔄 Workflow
 
-7. **Exploração de Mercados Pouco Explorados**
-   - A plataforma permite a formação de talentos para cargos em mercados pouco explorados, divergindo das práticas tradicionais de recrutamento.
+<details>
+<summary>📋 Activity Flowchart</summary>
 
-## **Diferenciais da Plataforma**
+The system features integrate into a workflow that allows companies to forecast growth and actively participate in talent formation. 
 
-1. **Enfoque na ODS 17**
-   - A plataforma se diferencia ao alinhar-se com o Objetivo de Desenvolvimento Sustentável 17, que promove a cooperação global para o desenvolvimento.
+1. **User Registration**
+    - Both talents and companies register on the platform.
+  
+2. **Europass Resume Creation**
+    - Import resumes from platforms like LinkedIn.
+  
+3. **Skill Compatibility Analysis**
+    - Use the Skill Compatibility Analyzer for skill assessment.
+  
+4. **Training and Improvement**
+    - Access Training Trails to enhance skills.
+  
+5. **Company Collaboration**
+    - Companies can search for talents based on specific needs.
 
-2. **Exploração de Mercados Não Convencionais**
-   - A plataforma se destaca ao focar em mercados pouco explorados, proporcionando oportunidades únicas para talentos e empresas.
+</details>
 
-3. **Treinamento Gratuito**
-   - Oferecemos treinamento gratuito para talentos, ajudando-os a aprimorar suas habilidades linguísticas e técnicas.
+---
 
-4. **Conversão Automática para Europass**
-   - A funcionalidade de conversão automática de currículos para Europass simplifica o processo de candidatura internacional.
+## 💎 Platform Unique Selling Points
 
-5. **Análise de Compatibilidade de Habilidades**
-   - O Skill Compatibility Analyzer ajuda talentos a entenderem como suas habilidades se alinham com as vagas disponíveis.
+1. **Focus on SDG 17**
+    - Aligned with Sustainable Development Goal 17 for global cooperation.
 
-6. **Colaboração com Empresas**
-   - A plataforma promove a colaboração ativa entre talentos e empresas para um recrutamento mais alinhado às necessidades do mercado.
+2. **Untapped Market Exploration**
+    - Focuses on providing opportunities in unexplored markets.
 
-7. **Sistema de Treinamento Integrado**
-   - As Training Trails oferecem oportunidades de aprimoramento contínuo para os usuários.
+3. **Free Training**
+    - Offers free training to enhance linguistic and technical skills.
 
-## **Caso de Uso Candidato 1: Identificação de Usuário**
+---
 
-??
-??
-??
+## 🛡 Data Security & Privacy
 
-## **Caso de Uso Candidato 2: Perfil**
+- All data is rigorously processed and anonymized to ensure privacy.
+- Advanced security measures protect against unauthorized access.
 
-Neste caso de uso, o candidato tem a capacidade de criar e gerenciar seu perfil na aplicação. Isso engloba o preenchimento de informações básicas e a configuração de preferências, como a busca por contratos de freelancer, a filtragem por tipo de contrato (freelancer/tempo integral) e nível de senioridade.
+---
 
-1. O candidato acessa a seção de perfil.
+## 🛠 Tech Stack
 
-2. Ele fornece informações básicas, incluindo nome, experiência, habilidades, etc.
-
-3. Ele define suas preferências quanto ao tipo de contrato (freelancer/tempo integral) e nível de senioridade.
-
-4. As informações do perfil são armazenadas no sistema.
-
-## **Caso de Uso Candidato 3: Comunidade**
-
-Este caso de uso permite ao candidato participar da comunidade da aplicação, onde os usuários podem fazer perguntas, compartilhar conhecimento e receber assistência. Por exemplo, os candidatos podem fazer perguntas sobre como encontrar livros sobre semicondutores.
-
-1. O candidato acessa a seção da comunidade.
-
-2. Ele cria uma pergunta ou responde a uma pergunta já existente.
-
-3. Outros usuários podem interagir fornecendo respostas ou comentários.
-
-## **Caso de Uso Candidato 4: Trilha de Desenvolvimento**
-
-Neste caso de uso, o candidato tem a oportunidade de participar de uma trilha de conhecimento gamificada. Eles podem acumular pontos para alcançar uma pontuação elevada no "score de imigração" para a Áustria.
-
-1. O candidato acessa a trilha de conhecimento.
-
-2. Eles concluem atividades e tarefas específicas para ganhar pontos.
-
-3. Os pontos acumulados contribuem para o seu "score de imigração" na Áustria.
-
-## **Caso de Uso Candidato 5: Página Inicial (Home)**
-
-A tela inicial (Home) da aplicação exibe anúncios de vagas de emprego de empresas para os candidatos.
-
-1. O candidato acessa a tela inicial.
-
-2. Ele visualiza as vagas de emprego disponíveis.
-
-3. Ele pode clicar em uma vaga para obter mais detalhes ou se candidatar.
-
-## **Segurança e Privacidade dos Dados**
-
-- Todos os dados e informações inseridos passam por rigorosos processos de tratamento e anonimização, garantindo que nenhum dado sensível seja exposto ou comprometido.
-
-- Medidas de segurança avançadas são implementadas para proteger os candidatos contra tentativas de acesso não autorizado e garantir a integridade dos dados.
-
-- A equipe responsável pelo desenvolvimento e manutenção do aplicativo móvel é treinada em questões de segurança e privacidade de dados, assegurando que todas as práticas adotadas estejam em conformidade com as regulamentações governamentais e padrões de proteção de informações sensíveis.
-
-# Design Patterns (Mobile)
-
+### Design Patterns (Mobile)
 - Singleton
 
-# External Packages (Mobile)
-
+### External Packages (Mobile)
 - Flutter Modular
 - Provider
-- GoogleFonts
+- Google Fonts
 
-# Arquitetura usada (Mobile)
-
+### Architecture (Mobile)
 - Clean Dart
 
-## Futuro
+---
 
-No futuro, temos planos de desenvolver nosso software para ser compatível com todas as plataformas, com o objetivo de alcançar um público mais abrangente. Além disso, planejamos lançar o software em outros países para atrair talentos adicionais para a Áustria.
+## 🌈 Future Roadmap
 
-## Testes
+We plan to expand our software to be cross-platform, aiming to reach a broader audience. International releases are also in the pipeline to attract more talents to Austria.
 
-Nosso software é robusto e inclui testes unitários para garantir sua confiabilidade e desempenho. Os testes unitários são uma parte essencial do nosso processo de desenvolvimento, pois nos permitem verificar individualmente cada componente da aplicação. Isso nos ajuda a identificar e corrigir problemas em um estágio inicial, garantindo que nosso software funcione conforme o esperado em diferentes cenários.
+---
 
-## Agradecimentos
+## 🧪 Tests
 
-Agradecemos sinceramente à Hackathon Brasil e a Advantage Austria pela oportunidade de participar de um desafio tão ambicioso, que nos enche de entusiasmo quanto ao seu desenvolvimento.
+Robust unit tests ensure reliability and performance.
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to Hackathon Brasil and Advantage Austria for this ambitious opportunity.
+
+---
