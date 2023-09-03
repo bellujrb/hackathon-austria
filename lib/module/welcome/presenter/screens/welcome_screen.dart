@@ -34,7 +34,7 @@ class WelcomeScreen extends StatelessWidget {
           }
           if (index == 2) {
             return const ItemCarrousel(
-              title: "Find a community for you to receibe",
+              title: "Find a community for you to receive",
               img: "assets/welcome3.png",
             );
           } else {

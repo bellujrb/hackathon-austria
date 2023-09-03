@@ -270,6 +270,8 @@ class ItemInfoComplet extends StatelessWidget {
             ContainerItemPositionLong(
               title: "Excellent problem-solving and troubleshooting skills.",
               color: const Color(0x19FF8414),
+              icon: Icons.warning,
+              colorIcon: AppColors.primaryRed,
               styleText: styleModifier.smallOrange,
             ),
             const SizedBox(
@@ -279,6 +281,8 @@ class ItemInfoComplet extends StatelessWidget {
               title:
                   "Willingness to adapt to new technologies and methodologies..",
               color: const Color(0x19FF8414),
+              icon: Icons.warning,
+              colorIcon: AppColors.primaryRed,
               styleText: styleModifier.smallOrange,
             ),
           ],

@@ -39,7 +39,7 @@ class ItemCarrousel extends StatelessWidget {
                   color: AppColors.primary,
                   borderRadius: BorderRadius.circular(16)),
               child: Text(
-                "Entrar",
+                "Enter",
                 style:
                     GoogleFonts.inter(textStyle: styleModifier.temporaryText),
               ),
