@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hackathon_austria/core/extensions/build_context_utils.dart';
 
-import '../../../../core/styles/colors.dart';
 
 class ContainerItemPosition extends StatelessWidget {
   final String title;
   final Color? color;
+  final Color? colorIcon;
   final TextStyle? styleText;
-  const ContainerItemPosition({super.key, required this.title, required this.color, this.styleText});
+  final IconData? icon;
+  const ContainerItemPosition({super.key, required this.title, required this.color, this.styleText, this.icon, this.colorIcon});
 
   @override
   Widget build(BuildContext context) {
@@ -28,8 +29,8 @@ class ContainerItemPosition extends StatelessWidget {
               style: GoogleFonts.inter(textStyle: styleText),
             ),
             Icon(
-              Icons.verified,
-              color: AppColors.primaryGreen,
+              icon,
+              color: colorIcon,
               size: 24,
             )
           ],

@@ -176,7 +176,7 @@ class ItemInfoComplet extends StatelessWidget {
     final styleModifier = context.appTextStyles;
     return Container(
       alignment: Alignment.topRight,
-      height: 500,
+      height: 600,
       width: context.mediaWidth * 0.9,
       color: Colors.white,
       child: Padding(
@@ -200,9 +200,12 @@ class ItemInfoComplet extends StatelessWidget {
                 )
               ],
             ),
-            const ContainerItemPosition(
+            ContainerItemPosition(
               title: "English 1C",
-              color: Color(0x1908A767),
+              color: const Color(0x1908A767),
+              colorIcon: AppColors.primaryGreen,
+              icon: Icons.verified,
+              styleText: styleModifier.smallGreen,
             ),
             const SizedBox(
               height: 8,
@@ -210,6 +213,8 @@ class ItemInfoComplet extends StatelessWidget {
             ContainerItemPositionLong(
               title: "Under-graduation in Engineer Eletronics or related",
               color: const Color(0x1908A767),
+              colorIcon: AppColors.primaryGreen,
+              icon: Icons.verified,
               styleText: styleModifier.smallGreen,
             ),
             const SizedBox(
@@ -219,6 +224,8 @@ class ItemInfoComplet extends StatelessWidget {
               title:
                   "Strong knowledge of semiconductor materials, fabrication techniques, and equipment.",
               color: const Color(0x1908A767),
+              colorIcon: AppColors.primaryGreen,
+              icon: Icons.verified,
               styleText: styleModifier.smallGreen,
             ),
             const SizedBox(
@@ -227,6 +234,8 @@ class ItemInfoComplet extends StatelessWidget {
             ContainerItemPosition(
               title: "German 1C",
               color: const Color(0x19FF8414),
+              icon: Icons.warning,
+              colorIcon: AppColors.primaryRed,
               styleText: styleModifier.smallOrange,
             ),
             const SizedBox(
