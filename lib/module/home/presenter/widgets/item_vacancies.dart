@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hackathon_austria/core/extensions/build_context_utils.dart';
+import 'package:hackathon_austria/core/styles/text_styles.dart';
 
 import '../../../../core/styles/colors.dart';
 
@@ -15,6 +16,7 @@ class ItemVacancies extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final styleModifier = context.appTextStyles;
     return Container(
       height: 200,
       width: context.mediaWidth * 0.9,
@@ -29,7 +31,9 @@ class ItemVacancies extends StatelessWidget {
               children: [
                 Text(
                   title,
-                  style: GoogleFonts.inter(),
+                  style: GoogleFonts.inter(
+                    textStyle: styleModifier.smallPlusBlack
+                  ),
                 ),
                 SizedBox(
                     width: 17,
@@ -80,7 +84,9 @@ class ItemVacancies extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: Text(
                 "80% Match with Your Profile",
-                style: GoogleFonts.inter(),
+                style: GoogleFonts.inter(
+                  textStyle: styleModifier.smallBlue
+                ),
               ))
         ],
       ),

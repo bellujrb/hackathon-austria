@@ -18,6 +18,12 @@ import 'package:hackathon_austria/core/styles/colors.dart';
       letterSpacing: -0.28,
     );
 
+    TextStyle get smallPlusBlack => TextStyle(
+      color: AppColors.primaryBlack,
+      fontSize: 14.0,
+      fontWeight: FontWeight.w700,
+    );
+
     TextStyle get mediumBlack => TextStyle(
       color: AppColors.primaryBlack,
       fontSize: 23.10,
@@ -75,6 +81,12 @@ import 'package:hackathon_austria/core/styles/colors.dart';
 
     TextStyle get smallWhite => const TextStyle(
       color: Colors.white,
+      fontSize: 13,
+      fontWeight: FontWeight.w600
+    );
+
+    TextStyle get smallBlue => TextStyle(
+      color: AppColors.primaryBlue,
       fontSize: 13,
       fontWeight: FontWeight.w600
     );
