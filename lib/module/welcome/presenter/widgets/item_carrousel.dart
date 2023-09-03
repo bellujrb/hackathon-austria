@@ -8,24 +8,17 @@ import '../../../../core/styles/colors.dart';
 
 class ItemCarrousel extends StatelessWidget {
   final String title;
-  final String subtitle;
-  const ItemCarrousel({super.key, required this.title, required this.subtitle});
+  final String img;
+  const ItemCarrousel({super.key, required this.title, required this.img});
 
   @override
   Widget build(BuildContext context) {
     final styleModifier = context.appTextStyles;
-    return Center(
+    return SafeArea(
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          SizedBox(
-            width: 328,
-            height: 242.17,
-            child: Image.asset('assets/welcome1.png'),
-          ),
-          const SizedBox(
-            height: 35,
-          ),
+          Image.asset(img),
           SizedBox(
             width: context.mediaWidth * 0.8,
             child: Text(
@@ -36,28 +29,22 @@ class ItemCarrousel extends StatelessWidget {
               ),
             ),
           ),
-          Text(
-            subtitle,
-            style: GoogleFonts.inter(textStyle: styleModifier.smallBlack),
-          ),
-          const SizedBox(
-            height: 20,
-          ),
           GestureDetector(
             onTap: () => Modular.to.navigate('home'),
             child: Container(
               alignment: Alignment.center,
               height: 36,
-              width: context.mediaWidth * 0.6,
+              width: context.mediaWidth * 0.7,
               decoration: BoxDecoration(
-                color: AppColors.primary,
-                borderRadius: BorderRadius.circular(16)
+                  color: AppColors.primary,
+                  borderRadius: BorderRadius.circular(16)),
+              child: Text(
+                "Entrar",
+                style:
+                    GoogleFonts.inter(textStyle: styleModifier.temporaryText),
               ),
-              child: Text("Entrar", style: GoogleFonts.inter(
-                textStyle: styleModifier.temporaryText
-              ),),
             ),
-          )
+          ),
         ],
       ),
     );
