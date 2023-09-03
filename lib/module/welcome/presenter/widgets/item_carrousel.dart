@@ -50,3 +50,32 @@ class ItemCarrousel extends StatelessWidget {
     );
   }
 }
+
+class SimpleItemCarrousel extends StatelessWidget {
+  final String title;
+  final String img;
+  const SimpleItemCarrousel({super.key, required this.title, required this.img});
+
+  @override
+  Widget build(BuildContext context) {
+    final styleModifier = context.appTextStyles;
+    return SafeArea(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          Image.asset(img),
+          SizedBox(
+            width: context.mediaWidth * 0.8,
+            child: Text(
+              title,
+              textAlign: TextAlign.center,
+              style: GoogleFonts.inter(
+                textStyle: styleModifier.mediumBlack,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}

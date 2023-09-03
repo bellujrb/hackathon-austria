@@ -21,21 +21,21 @@ class WelcomeScreen extends StatelessWidget {
         ]),
         itemBuilder: (context, index) {
           if (index == 0) {
-            return const ItemCarrousel(
+            return const SimpleItemCarrousel(
               title: "Discover opportunities in Austria",
               img: "assets/welcome1.png",
             );
           }
           if (index == 1) {
-            return const ItemCarrousel(
+            return const SimpleItemCarrousel(
               title: "Boost your career with hiring trails",
-              img: "assets/welcome1.png",
+              img: "assets/welcome2.png",
             );
           }
           if (index == 2) {
             return const ItemCarrousel(
               title: "Find a community for you to receibe",
-              img: "assets/welcome1.png",
+              img: "assets/welcome3.png",
             );
           } else {
             return const SizedBox();
