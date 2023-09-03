@@ -104,6 +104,7 @@ class _DiagnosticScreenState extends State<DiagnosticScreen> {
                 ),
                 _isShow
                     ? ItemInfoIncomplet(
+                        title: "QUALIFICATIONS",
                         onPressed: () {
                           setState(() {
                             _isShow = !_isShow;
@@ -116,7 +117,30 @@ class _DiagnosticScreenState extends State<DiagnosticScreen> {
                             _isShow = !_isShow;
                           });
                         },
-                      )
+                      ),
+                const SizedBox(
+                  height: 20,
+                ),
+                ItemInfoIncomplet(title: "KEY RESPONSABILITIES"),
+                const SizedBox(
+                  height: 20,
+                ),
+                ItemInfoIncomplet(title: "BENEFITS"),
+                const SizedBox(
+                  height: 20,
+                ),
+                Container(
+                  alignment: Alignment.center,
+                  height: 40,
+                  width: context.mediaWidth * 0.9,
+                  decoration: BoxDecoration(
+                    color: AppColors.primaryBlue,
+                    borderRadius: BorderRadius.circular(24)
+                  ),
+                  child: Text("Apply for this Position", style: GoogleFonts.inter(
+                    textStyle: styleModifier.smallWhite
+                  ),),
+                )
               ],
             ),
           ),
@@ -126,10 +150,12 @@ class _DiagnosticScreenState extends State<DiagnosticScreen> {
 
 // ignore: must_be_immutable
 class ItemInfoIncomplet extends StatelessWidget {
+  final String title;
   void Function()? onPressed;
   ItemInfoIncomplet({
     Key? key,
     this.onPressed,
+    required this.title,
   }) : super(key: key);
 
   @override
@@ -145,7 +171,7 @@ class ItemInfoIncomplet extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              "QUALIFICATIONS",
+              title,
               style: GoogleFonts.inter(textStyle: styleModifier.smallBlack),
             ),
             IconButton(
