@@ -30,6 +30,18 @@ import 'package:hackathon_austria/core/styles/colors.dart';
       fontSize: 16,
       fontWeight: FontWeight.w400
     );
+
+    TextStyle get mediumRed => TextStyle(
+      color: AppColors.primaryRed,
+      fontSize: 24.0,
+      fontWeight: FontWeight.w700
+    );
+
+    TextStyle get smallWhite => const TextStyle(
+      color: Colors.white,
+      fontSize: 13,
+      fontWeight: FontWeight.w600
+    );
   }
 
   extension AppTextStylesExtension on BuildContext {
