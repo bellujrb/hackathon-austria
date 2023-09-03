@@ -1,6 +1,6 @@
-# EmployEd: Connecting Circuits to Careers 🇧🇷 🇦🇹
+# EmployEd: Connecting Circuits to Careers 🇦🇹
 
-> _TEAM 263 of the Samba Meets Waltz - Hackathon 2023_
+> _TEAM 263: Samba Meets Waltz
 
 ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-Mobile-blue)
@@ -79,6 +79,93 @@ The system features integrate into a workflow that allows companies to forecast 
 
 ---
 
+## 📂 Project File Tree
+
+```
+EmployEd
+├── android
+│   └── ...
+├── assets
+│   └── welcome1.png
+├── ios
+│   └── ...
+├── lib
+│   ├── app_module.dart
+│   ├── core
+│   │   └── ...
+│   ├── main.dart
+│   └── module
+│       ├── home
+│       │   └── ...
+│       └── welcome
+│           └── ...
+├── linux
+│   └── ...
+├── macos
+│   └── ...
+├── pubspec.lock
+├── pubspec.yaml
+├── README.md
+├── test
+│   └── widget_test.dart
+├── web
+│   └── ...
+└── windows
+    └── ...
+```
+
+---
+
+## 🧪 Testing Plan
+
+Flutter's unit testing framework allows for quick and reliable testing. Below is a unitary testing plan based on the file structure and Flutter.
+
+### `lib/`
+
+#### `module/home`
+
+- `home_module.dart`
+    - Test if the module initializes correctly.
+- `infra/models/home_model.dart`
+    - Test JSON serialization and deserialization.
+- `infra/services/home_service.dart`
+    - Test API interactions for expected outcomes.
+- `presenter/screens/home/home_screen.dart`
+    - Test UI rendering and interactions.
+  
+#### `module/welcome`
+
+- `welcome_module.dart`
+    - Test if the module initializes correctly.
+- `infra/models/welcome_model.dart`
+    - Test JSON serialization and deserialization.
+- `infra/services/welcome_service.dart`
+    - Test API interactions for expected outcomes.
+- `presenter/screens/welcome/welcome_screen.dart`
+    - Test UI rendering and interactions.
+
+#### `core/`
+
+- `core/extensions/build_context_utils.dart`
+    - Test context extension methods.
+- `core/styles/colors.dart` & `core/styles/text_styles.dart`
+    - Visual tests (Manual).
+
+### `test/`
+
+- `widget_test.dart`
+    - Write widget tests for major interactive UI components.
+
+To run tests, you can use the following command in your terminal:
+
+```bash
+flutter test
+```
+
+For more in-depth testing, you can also run integration tests to simulate user interactions across multiple screens.
+
+---
+
 ## 💎 Platform Unique Selling Points
 
 1. **Focus on SDG 17**
@@ -106,8 +193,10 @@ The system features integrate into a workflow that allows companies to forecast 
 
 ### External Packages (Mobile)
 - Flutter Modular
-- Provider
+- Flutter Dotenv
 - Google Fonts
+- HTTP
+- Logger
 
 ### Architecture (Mobile)
 - Clean Dart
@@ -117,12 +206,6 @@ The system features integrate into a workflow that allows companies to forecast 
 ## 🌈 Future Roadmap
 
 We plan to expand our software to be cross-platform, aiming to reach a broader audience. International releases are also in the pipeline to attract more talents to Austria.
-
----
-
-## 🧪 Tests
-
-Robust unit tests ensure reliability and performance.
 
 ---
 
